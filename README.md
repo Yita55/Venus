@@ -94,9 +94,23 @@ target 'Venus' do
 
   # Pods for Venus
   pod 'Charts'
-  pod 'iOSDFULibrary', '~> 3.0'
+  # pod 'iOSDFULibrary', '~> 3.0'
   pod 'Alamofire', '~> 4.4'
   pod 'SDCAlertView', '~> 7.1'
+  pod 'KDCircularProgress'
+  pod 'EZAlertController', '3.2'
+  pod 'SwiftProgressHUD'
+  pod 'MBCircularProgressBar'
+  pod 'Bitter'
+  pod 'RealmSwift'
 
+end
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['SWIFT_VERSION'] = '3.0'
+        end
+    end
 end
 ```
