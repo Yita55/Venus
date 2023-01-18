@@ -1,0 +1,57 @@
+
+/* Class = "UILabel"; text = "In bed for: "; ObjectID = "1q2-sB-cD2"; */
+"1q2-sB-cD2.text" = "整天睡眠: ";
+
+/* Class = "UILabel"; text = "|"; ObjectID = "3ml-Sf-yvn"; */
+"3ml-Sf-yvn.text" = "|";
+
+/* Class = "UITabBarItem"; title = "Status"; ObjectID = "68O-jR-U93"; */
+"68O-jR-U93.title" = "状态";
+
+/* Class = "UILabel"; text = "/ 7000"; ObjectID = "BhS-6h-a4B"; */
+"BhS-6h-a4B.text" = "/ 7000";
+
+/* Class = "UILabel"; text = "0 km"; ObjectID = "Mdl-FX-ocT"; */
+"Mdl-FX-ocT.text" = "0 km";
+
+/* Class = "UILabel"; text = "SLEEP"; ObjectID = "P8L-VS-ueS"; */
+"P8L-VS-ueS.text" = "SLEEP";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "SAI-s4-rTT"; */
+"SAI-s4-rTT.text" = "0";
+
+/* Class = "UILabel"; text = "Deep: 3h 50m"; ObjectID = "Xce-DH-FId"; */
+"Xce-DH-FId.text" = "深睡眠: 0時 0分";
+
+/* Class = "UILabel"; text = "3h50m (22:09~01:47)"; ObjectID = "gyn-wP-vsw"; */
+"gyn-wP-vsw.text" = "0時0分 (00:00~00:00)";
+
+/* Class = "UILabel"; text = "Light: 0h 0m"; ObjectID = "itf-Wp-TkL"; */
+"itf-Wp-TkL.text" = "浅睡眠: 0時 0分";
+
+/* Class = "UILabel"; text = "kcal"; ObjectID = "je6-Xi-aEv"; */
+"je6-Xi-aEv.text" = "kcal";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "tF6-Vu-S0L"; */
+"tF6-Vu-S0L.title" = "Item";
+
+/* Class = "UINavigationItem"; title = "Status"; ObjectID = "uEa-dY-aTd"; */
+"uEa-dY-aTd.title" = "状态";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "v7h-cr-KYX"; */
+"v7h-cr-KYX.title" = "Item";
+
+/* Class = "UILabel"; text = "HEART RATE"; ObjectID = "vLy-6F-oL6"; */
+"vLy-6F-oL6.text" = "HEART RATE";
+
+/* Class = "UILabel"; text = "STEPS"; ObjectID = "y63-Hq-eIC"; */
+"y63-Hq-eIC.text" = "STEPS";
+
+/* Class = "UILabel"; text = "|"; ObjectID = "yeO-t2-fqj"; */
+"yeO-t2-fqj.text" = "|";
+
+/* Class = "UILabel"; text = "STEPS"; ObjectID = "z5x-aR-a5q"; */
+"z5x-aR-a5q.text" = "STEPS";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "zpK-1B-tGq"; */
+"zpK-1B-tGq.text" = "0";

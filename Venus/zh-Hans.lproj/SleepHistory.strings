@@ -1,0 +1,48 @@
+
+/* Class = "UINavigationItem"; title = "Sleep"; ObjectID = "1hb-Pk-Ahx"; */
+"1hb-Pk-Ahx.title" = "睡眠";
+
+/* Class = "UILabel"; text = "In bed for"; ObjectID = "21x-3u-0nL"; */
+"21x-3u-0nL.text" = "In bed for";
+
+/* Class = "UILabel"; text = "00 h 00 m"; ObjectID = "6XB-k8-e6B"; */
+"6XB-k8-e6B.text" = "00 h 00 m";
+
+/* Class = "UILabel"; text = "Fell asleep at"; ObjectID = "7HM-mE-hlz"; */
+"7HM-mE-hlz.text" = "Fell asleep at";
+
+/* Class = "UILabel"; text = "Awake time"; ObjectID = "8n8-zy-k58"; */
+"8n8-zy-k58.text" = "Awake time";
+
+/* Class = "UILabel"; text = "Woke up at"; ObjectID = "Ddy-Fe-hmF"; */
+"Ddy-Fe-hmF.text" = "Woke up at";
+
+/* Class = "UILabel"; text = "00 h 00 m"; ObjectID = "FVH-RV-Bnm"; */
+"FVH-RV-Bnm.text" = "00 h 00 m";
+
+/* Class = "UILabel"; text = "Deep sleep"; ObjectID = "MID-zO-liW"; */
+"MID-zO-liW.text" = "Deep sleep";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "Vgr-qy-yCB"; */
+"Vgr-qy-yCB.text" = "00:00";
+
+/* Class = "UIBarButtonItem"; title = "Details"; ObjectID = "WWp-By-yjx"; */
+"WWp-By-yjx.title" = "Details";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "ZBO-Xq-w2B"; */
+"ZBO-Xq-w2B.text" = "00:00";
+
+/* Class = "UILabel"; text = "Light sleep"; ObjectID = "ZGx-DS-5pa"; */
+"ZGx-DS-5pa.text" = "Light sleep";
+
+/* Class = "UILabel"; text = "00 h 00 m"; ObjectID = "bDg-zg-goy"; */
+"bDg-zg-goy.text" = "00 h 00 m";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "gGh-7a-ze1"; */
+"gGh-7a-ze1.text" = "00:00";
+
+/* Class = "UILabel"; text = "0min"; ObjectID = "iJC-vs-3TE"; */
+"iJC-vs-3TE.text" = "0min";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "uuL-AW-NXB"; */
+"uuL-AW-NXB.text" = "00:00";

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vCQ-CR-cPe">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--設定-->
+        <scene sceneID="ZnD-WS-Uoe">
+            <objects>
+                <viewController storyboardIdentifier="SettingViewController" id="6vH-ZT-tlV" customClass="SettingViewController" customModule="Venus" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FGi-pH-G7v"/>
+                        <viewControllerLayoutGuide type="bottom" id="v9X-mp-xcW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Hhq-N2-Qur">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="M13-Ao-ehb">
+                                <rect key="frame" x="0.0" y="277" width="375" height="390"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="venus_logo_440x720" translatesAutoresizingMaskIntoConstraints="NO" id="kXT-KI-MXC">
+                                <rect key="frame" x="78" y="20" width="220" height="190"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="190" id="Fc0-5d-XKP"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="usQ-jk-9gy">
+                                <rect key="frame" x="170" y="233" width="35" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="鬧鐘"/>
+                                <connections>
+                                    <action selector="goToAlarmView:" destination="6vH-ZT-tlV" eventType="touchUpInside" id="5Pv-Fw-j1s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOF-vi-vP7">
+                                <rect key="frame" x="170" y="285" width="35" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="War-eR-wOQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="關於"/>
+                                <connections>
+                                    <action selector="goToAboutView:" destination="6vH-ZT-tlV" eventType="touchUpInside" id="xzc-ch-8RX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="M13-Ao-ehb" firstAttribute="centerX" secondItem="Hhq-N2-Qur" secondAttribute="centerX" id="7eE-iE-Uc5"/>
+                            <constraint firstItem="M13-Ao-ehb" firstAttribute="top" secondItem="usQ-jk-9gy" secondAttribute="bottom" constant="11" id="GHO-xh-gZM"/>
+                            <constraint firstItem="kXT-KI-MXC" firstAttribute="centerX" secondItem="M13-Ao-ehb" secondAttribute="centerX" id="INb-C7-2wk"/>
+                            <constraint firstItem="UOF-vi-vP7" firstAttribute="top" secondItem="usQ-jk-9gy" secondAttribute="bottom" constant="19" id="KSI-QX-nNN"/>
+                            <constraint firstItem="usQ-jk-9gy" firstAttribute="centerX" secondItem="Hhq-N2-Qur" secondAttribute="centerX" id="LPE-td-eYD"/>
+                            <constraint firstItem="UOF-vi-vP7" firstAttribute="centerX" secondItem="Hhq-N2-Qur" secondAttribute="centerX" id="NNn-fJ-MeV"/>
+                            <constraint firstItem="kXT-KI-MXC" firstAttribute="centerX" secondItem="Hhq-N2-Qur" secondAttribute="centerX" id="XMa-xr-ydM"/>
+                            <constraint firstItem="M13-Ao-ehb" firstAttribute="leading" secondItem="Hhq-N2-Qur" secondAttribute="leading" id="nR5-Em-hIS"/>
+                            <constraint firstItem="kXT-KI-MXC" firstAttribute="top" secondItem="FGi-pH-G7v" secondAttribute="bottom" id="oYV-YN-adq"/>
+                            <constraint firstAttribute="bottom" secondItem="M13-Ao-ehb" secondAttribute="bottom" id="uGD-J0-5P4"/>
+                            <constraint firstItem="usQ-jk-9gy" firstAttribute="top" secondItem="kXT-KI-MXC" secondAttribute="bottom" constant="23" id="wrM-k8-y7C"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="設定" id="rNF-9D-Nd7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oaZ-xO-OtA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1255" y="1739"/>
+        </scene>
+        <!--Setting-->
+        <scene sceneID="kVf-CZ-cwe">
+            <objects>
+                <navigationController id="vCQ-CR-cPe" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Setting" image="ic_settings_white" id="JIq-6H-Tdc"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4vt-ZG-BIm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="bQ0-gg-YRy" kind="relationship" relationship="rootViewController" id="JIs-yb-o1X"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mes-cv-QRJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="287" y="1630"/>
+        </scene>
+        <!--Setting-->
+        <scene sceneID="w3f-TV-diP">
+            <objects>
+                <viewController storyboardIdentifier="CustomController" id="bQ0-gg-YRy" customClass="CustomController" customModule="Venus" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pAe-kj-IfI"/>
+                        <viewControllerLayoutGuide type="bottom" id="s4E-hB-bh3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="p2F-hA-ngw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Setting" id="upm-3c-rZv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="THw-5S-Xbf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1145" y="1049"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_settings_white" width="24" height="24"/>
+        <image name="venus_logo_440x720" width="220" height="360"/>
+    </resources>
+</document>

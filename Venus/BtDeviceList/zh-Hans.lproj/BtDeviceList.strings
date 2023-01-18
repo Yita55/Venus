@@ -1,0 +1,27 @@
+
+/* Class = "UIButton"; normalTitle = "Dicsonnect"; ObjectID = "JGn-Go-KZy"; */
+"JGn-Go-KZy.normalTitle" = "断线";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "L9c-Lc-f9p"; */
+"L9c-Lc-f9p.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "100%"; ObjectID = "LgC-jH-ram"; */
+"LgC-jH-ram.text" = "100%";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Xk8-9m-TOz"; */
+"Xk8-9m-TOz.text" = "Title";
+
+/* Class = "UILabel"; text = "No devices found"; ObjectID = "aJb-fe-PV5"; */
+"aJb-fe-PV5.text" = "找不到设备";
+
+/* Class = "UILabel"; text = "點擊後開始連線設備"; ObjectID = "dbH-eV-fAK"; */
+"dbH-eV-fAK.text" = "点击后开始连线设备";
+
+/* Class = "UINavigationItem"; title = "Device"; ObjectID = "jtr-Ya-6Dx"; */
+"jtr-Ya-6Dx.title" = "设备";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "l5x-OD-ejL"; */
+"l5x-OD-ejL.text" = "Title";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "yyQ-5X-AxN"; */
+"yyQ-5X-AxN.text" = "Subtitle";

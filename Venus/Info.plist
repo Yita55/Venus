@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Age</key>
+	<string>30</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.000.140333</string>
+	<key>DeepSleepTime</key>
+	<string>0</string>
+	<key>DeviceName</key>
+	<string>VNS_12345</string>
+	<key>FirmwareRevision</key>
+	<string>v1.000.018</string>
+	<key>Gender</key>
+	<string>male</string>
+	<key>HardwareRevision</key>
+	<string>v1.000.000</string>
+	<key>Height</key>
+	<string>170</string>
+	<key>InBedForTime</key>
+	<string>0</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>LastCalorie</key>
+	<string>0</string>
+	<key>LastDistance</key>
+	<string>0</string>
+	<key>LastStep</key>
+	<string>0</string>
+	<key>LastStepTime</key>
+	<string>0</string>
+	<key>LightSleepTime</key>
+	<string>0</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>App needs your consent to access Bluetooth</string>
+	<key>ServerDomain</key>
+	<string>https://webservice.cloudchip.com/</string>
+	<key>SleepDate</key>
+	<string>0</string>
+	<key>StepsGoal</key>
+	<string>7000</string>
+	<key>StrideLength</key>
+	<string>70</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>Weight</key>
+	<string>65</string>
+</dict>
+</plist>

@@ -1,0 +1,15 @@
+
+/* Class = "UITabBarItem"; title = "設定"; ObjectID = "JIq-6H-Tdc"; */
+"JIq-6H-Tdc.title" = "设定";
+
+/* Class = "UIButton"; normalTitle = "關於"; ObjectID = "UOF-vi-vP7"; */
+"UOF-vi-vP7.normalTitle" = "关于";
+
+/* Class = "UINavigationItem"; title = "設定"; ObjectID = "rNF-9D-Nd7"; */
+"rNF-9D-Nd7.title" = "设定";
+
+/* Class = "UINavigationItem"; title = "設定"; ObjectID = "upm-3c-rZv"; */
+"upm-3c-rZv.title" = "设定";
+
+/* Class = "UIButton"; normalTitle = "鬧鐘"; ObjectID = "usQ-jk-9gy"; */
+"usQ-jk-9gy.normalTitle" = "闹钟";

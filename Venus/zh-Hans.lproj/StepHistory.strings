@@ -1,0 +1,45 @@
+
+/* Class = "UILabel"; text = "Distance"; ObjectID = "00j-9w-lv4"; */
+"00j-9w-lv4.text" = "距离";
+
+/* Class = "UILabel"; text = "Steps"; ObjectID = "D3l-Om-iLR"; */
+"D3l-Om-iLR.text" = "步数";
+
+/* Class = "UILabel"; text = "0 Cal"; ObjectID = "Fhx-fK-OfV"; */
+"Fhx-fK-OfV.text" = "0 Cal";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "HPP-hD-MTw"; */
+"HPP-hD-MTw.text" = "0";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "J0V-rz-6GU"; */
+"J0V-rz-6GU.text" = "00:00";
+
+/* Class = "UILabel"; text = "1h30min"; ObjectID = "MC3-dH-J3Y"; */
+"MC3-dH-J3Y.text" = "1h30min";
+
+/* Class = "UILabel"; text = "20:57~21:02"; ObjectID = "O4y-n9-QfI"; */
+"O4y-n9-QfI.text" = "20:57~21:02";
+
+/* Class = "UILabel"; text = "0 km"; ObjectID = "UXf-z7-rMv"; */
+"UXf-z7-rMv.text" = "0 km";
+
+/* Class = "UILabel"; text = "1000 steps"; ObjectID = "ch6-CA-eL6"; */
+"ch6-CA-eL6.text" = "1000 steps";
+
+/* Class = "UILabel"; text = "23:59"; ObjectID = "dg2-gj-2UL"; */
+"dg2-gj-2UL.text" = "23:59";
+
+/* Class = "UILabel"; text = "0.04 km"; ObjectID = "fDW-se-EO0"; */
+"fDW-se-EO0.text" = "0.04 km";
+
+/* Class = "UILabel"; text = "Calorie"; ObjectID = "g2s-cc-GqU"; */
+"g2s-cc-GqU.text" = "卡路里";
+
+/* Class = "UINavigationItem"; title = "Steps"; ObjectID = "gcX-0U-ywU"; */
+"gcX-0U-ywU.title" = "步数";
+
+/* Class = "UILabel"; text = "Walking"; ObjectID = "psQ-3M-gEH"; */
+"psQ-3M-gEH.text" = "Walking";
+
+/* Class = "UILabel"; text = "1 cal"; ObjectID = "wVj-Vg-H4E"; */
+"wVj-Vg-H4E.text" = "1 cal";

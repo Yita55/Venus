@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomAlertViewController" customModule="Venus" customModuleProvider="target">
+            <connections>
+                <outlet property="cancelBtn" destination="rNa-in-Ag0" id="AlN-Me-cfG"/>
+                <outlet property="doneBtn" destination="S5Z-n6-HtR" id="QSB-ti-biO"/>
+                <outlet property="endLabel" destination="6TL-QE-fl2" id="l3I-si-TQS"/>
+                <outlet property="endTimePicker" destination="fFv-2Y-oCy" id="DZD-4p-KM3"/>
+                <outlet property="startLabel" destination="M97-Bv-9gE" id="HtI-rS-Wt9"/>
+                <outlet property="startTimePicker" destination="aZI-OO-qhm" id="5jm-Of-26p"/>
+                <outlet property="titleLabel" destination="vVI-3O-plj" id="UcD-Qp-VE4"/>
+                <outlet property="view" destination="mGv-h8-PqG" id="qKy-Cf-iCI"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="mGv-h8-PqG" userLabel="AlertView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Setting Sleep Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vVI-3O-plj">
+                    <rect key="frame" x="87.5" y="6" width="145" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="lZP-cZ-Im0"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xeY-ET-HfV" userLabel="DividerView">
+                    <rect key="frame" x="0.0" y="415" width="320" height="1"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="SE3-Z4-aqW"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNa-in-Ag0">
+                    <rect key="frame" x="0.0" y="416" width="160" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Mlo-l4-Xcw"/>
+                    </constraints>
+                    <state key="normal" title="Cancel"/>
+                    <connections>
+                        <action selector="doDismiss:" destination="-1" eventType="touchUpInside" id="g0C-Bh-wVN"/>
+                    </connections>
+                </button>
+                <datePicker tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="fFv-2Y-oCy">
+                    <rect key="frame" x="0.0" y="253" width="320" height="162"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="162" id="EUz-4f-wKl"/>
+                    </constraints>
+                    <date key="date" timeIntervalSinceReferenceDate="528545411.90389001">
+                        <!--2017-10-01 10:10:11 +0000-->
+                    </date>
+                </datePicker>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mHX-MG-xxb" userLabel="DividerView">
+                    <rect key="frame" x="159.5" y="416" width="1" height="44"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="Lld-pr-AN6"/>
+                        <constraint firstAttribute="height" constant="44" id="zIZ-LR-uEc"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S5Z-n6-HtR">
+                    <rect key="frame" x="160" y="416" width="160" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="7We-1Z-UCR"/>
+                    </constraints>
+                    <state key="normal" title="Done"/>
+                    <connections>
+                        <action selector="donePressAction:" destination="-1" eventType="touchUpInside" id="jCx-AO-ydj"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="End Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6TL-QE-fl2">
+                    <rect key="frame" x="4" y="232" width="316" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="hjp-ov-c2l"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <datePicker tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="aZI-OO-qhm">
+                    <rect key="frame" x="0.0" y="70" width="320" height="162"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="162" id="keI-o3-a3r"/>
+                    </constraints>
+                    <date key="date" timeIntervalSinceReferenceDate="528545411.90389001">
+                        <!--2017-10-01 10:10:11 +0000-->
+                    </date>
+                </datePicker>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M97-Bv-9gE">
+                    <rect key="frame" x="4" y="49" width="316" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="uaV-ev-4XI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="aZI-OO-qhm" firstAttribute="leading" secondItem="mGv-h8-PqG" secondAttribute="leading" id="AW3-P8-dly"/>
+                <constraint firstAttribute="bottom" secondItem="rNa-in-Ag0" secondAttribute="bottom" id="BBl-Au-YN7"/>
+                <constraint firstItem="S5Z-n6-HtR" firstAttribute="leading" secondItem="rNa-in-Ag0" secondAttribute="trailing" id="FLM-Wh-Abc"/>
+                <constraint firstAttribute="bottom" secondItem="mHX-MG-xxb" secondAttribute="bottom" id="Jll-8e-mQ0"/>
+                <constraint firstItem="fFv-2Y-oCy" firstAttribute="leading" secondItem="mGv-h8-PqG" secondAttribute="leading" id="MDf-j2-23c"/>
+                <constraint firstItem="rNa-in-Ag0" firstAttribute="leading" secondItem="mGv-h8-PqG" secondAttribute="leading" id="Nbj-4f-Rdz"/>
+                <constraint firstItem="rNa-in-Ag0" firstAttribute="width" secondItem="mGv-h8-PqG" secondAttribute="width" multiplier="0.5" id="Ooc-ep-wSf"/>
+                <constraint firstAttribute="bottom" secondItem="S5Z-n6-HtR" secondAttribute="bottom" id="Pwe-dQ-cYQ"/>
+                <constraint firstItem="vVI-3O-plj" firstAttribute="centerX" secondItem="mGv-h8-PqG" secondAttribute="centerX" id="RZt-fV-sKp"/>
+                <constraint firstAttribute="trailing" secondItem="xeY-ET-HfV" secondAttribute="trailing" id="Xd9-HW-YQP"/>
+                <constraint firstItem="6TL-QE-fl2" firstAttribute="top" secondItem="aZI-OO-qhm" secondAttribute="bottom" id="a4I-TZ-DgO"/>
+                <constraint firstItem="fFv-2Y-oCy" firstAttribute="top" secondItem="6TL-QE-fl2" secondAttribute="bottom" id="bHh-KK-6cr"/>
+                <constraint firstItem="rNa-in-Ag0" firstAttribute="top" secondItem="xeY-ET-HfV" secondAttribute="bottom" id="bkY-5A-t0L"/>
+                <constraint firstItem="aZI-OO-qhm" firstAttribute="top" secondItem="M97-Bv-9gE" secondAttribute="bottom" id="c7M-Fl-ake"/>
+                <constraint firstAttribute="trailing" secondItem="6TL-QE-fl2" secondAttribute="trailing" id="cAO-R8-QGD"/>
+                <constraint firstItem="6TL-QE-fl2" firstAttribute="leading" secondItem="mGv-h8-PqG" secondAttribute="leading" constant="4" id="csu-T3-Wuy"/>
+                <constraint firstAttribute="trailing" secondItem="fFv-2Y-oCy" secondAttribute="trailing" id="d91-bC-cwq"/>
+                <constraint firstItem="S5Z-n6-HtR" firstAttribute="leading" secondItem="rNa-in-Ag0" secondAttribute="trailing" id="egl-4f-vJo"/>
+                <constraint firstAttribute="trailing" secondItem="aZI-OO-qhm" secondAttribute="trailing" id="fou-og-GDt"/>
+                <constraint firstItem="vVI-3O-plj" firstAttribute="top" secondItem="mGv-h8-PqG" secondAttribute="top" constant="6" id="kqZ-mU-W8L"/>
+                <constraint firstItem="xeY-ET-HfV" firstAttribute="leading" secondItem="mGv-h8-PqG" secondAttribute="leading" id="m4e-fe-cqi"/>
+                <constraint firstItem="mHX-MG-xxb" firstAttribute="centerX" secondItem="mGv-h8-PqG" secondAttribute="centerX" id="ndj-GI-IkI"/>
+                <constraint firstItem="xeY-ET-HfV" firstAttribute="top" secondItem="fFv-2Y-oCy" secondAttribute="bottom" id="noD-Gn-Ovg"/>
+                <constraint firstItem="M97-Bv-9gE" firstAttribute="leading" secondItem="mGv-h8-PqG" secondAttribute="leading" constant="4" id="q2T-OD-Zms"/>
+                <constraint firstAttribute="trailing" secondItem="S5Z-n6-HtR" secondAttribute="trailing" id="sxs-DO-XqD"/>
+                <constraint firstAttribute="trailing" secondItem="M97-Bv-9gE" secondAttribute="trailing" id="wFC-l1-P7g"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-232" y="-232"/>
+        </view>
+    </objects>
+</document>

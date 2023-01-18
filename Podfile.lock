@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (4.5.0)
+  - Bitter (2.0.5)
+  - Charts (3.0.2):
+    - Charts/Core (= 3.0.2)
+  - Charts/Core (3.0.2)
+  - EZAlertController (3.2)
+  - KDCircularProgress (1.5.2)
+  - MBCircularProgressBar (0.3.5)
+  - Realm (2.9.1):
+    - Realm/Headers (= 2.9.1)
+  - Realm/Headers (2.9.1)
+  - RealmSwift (2.9.1):
+    - Realm (= 2.9.1)
+  - SDCAlertView (7.1.2)
+  - SwiftProgressHUD (0.0.5)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - Bitter
+  - Charts
+  - EZAlertController (= 3.2)
+  - KDCircularProgress
+  - MBCircularProgressBar
+  - RealmSwift
+  - SDCAlertView (~> 7.1)
+  - SwiftProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  Bitter: e334be7bdfa3c357fe12da3cc1ee1e44dab73d65
+  Charts: 236d6ccdd0ce6feae151d89e829a7397381a21fd
+  EZAlertController: 633be01320bed47720be54054df47667d61c2481
+  KDCircularProgress: 12f677b2deb02409ab48c6cae1898d146b8ad549
+  MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
+  Realm: f91fb43bd474c4f731a116ebf7392c75dd015920
+  RealmSwift: 207f12a4a36b696c5183c60a1c06d70234a23e56
+  SDCAlertView: c39fa91a3aeb5eeba58fe9cea648263b131ff2bf
+  SwiftProgressHUD: 74856c5d9538bad076d449c2a2c72af51e62ab84
+
+PODFILE CHECKSUM: f018be87ff74e19badaeaa9d6bda21a69f3a3a28
+
+COCOAPODS: 1.3.1

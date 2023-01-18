@@ -1,0 +1,24 @@
+
+/* Class = "UINavigationItem"; title = "Heart Rate"; ObjectID = "1hb-Pk-Ahx"; */
+"1hb-Pk-Ahx.title" = "心率";
+
+/* Class = "UILabel"; text = "114 BPM"; ObjectID = "4GQ-Gz-lZC"; */
+"4GQ-Gz-lZC.text" = "114 BPM";
+
+/* Class = "UILabel"; text = "7/12/17 11:16:00"; ObjectID = "Syy-cG-uOE"; */
+"Syy-cG-uOE.text" = "7/12/17 11:16:00";
+
+/* Class = "UIBarButtonItem"; title = "Details"; ObjectID = "WWp-By-yjx"; */
+"WWp-By-yjx.title" = "Details";
+
+/* Class = "UILabel"; text = "Last Result"; ObjectID = "ZBO-Xq-w2B"; */
+"ZBO-Xq-w2B.text" = "上次测量结果";
+
+/* Class = "UILabel"; text = "BPM"; ObjectID = "qbH-yr-mTX"; */
+"qbH-yr-mTX.text" = "次/分";
+
+/* Class = "UILabel"; text = "--/--/-- --:--:--"; ObjectID = "sfk-sk-7gy"; */
+"sfk-sk-7gy.text" = "--/--/-- --:--:--";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "ufQ-ta-fGS"; */
+"ufQ-ta-fGS.text" = "0";

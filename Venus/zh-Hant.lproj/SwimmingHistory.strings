@@ -1,0 +1,93 @@
+
+/* Class = "UILabel"; text = "Distance"; ObjectID = "00j-9w-lv4"; */
+"00j-9w-lv4.text" = "距離";
+
+/* Class = "UILabel"; text = "Freestyle"; ObjectID = "1BO-X8-ERy"; */
+"1BO-X8-ERy.text" = "Freestyle";
+
+/* Class = "UILabel"; text = "lap:5 Pace:1:13 Calorie:6"; ObjectID = "1uJ-WS-jaF"; */
+"1uJ-WS-jaF.text" = "lap:5 Pace:1:13 Calorie:6";
+
+/* Class = "UILabel"; text = "Pace(min/66yd)"; ObjectID = "6UO-95-z80"; */
+"6UO-95-z80.text" = "Pace(min/66yd)";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "D3l-Om-iLR"; */
+"D3l-Om-iLR.text" = "時間";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "E71-Ld-60Z"; */
+"E71-Ld-60Z.text" = "00:00";
+
+/* Class = "UILabel"; text = "0 Cal"; ObjectID = "Fhx-fK-OfV"; */
+"Fhx-fK-OfV.text" = "0 Cal";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Gpd-dh-zWw"; */
+"Gpd-dh-zWw.text" = "0";
+
+/* Class = "UILabel"; text = "0h0m"; ObjectID = "HPP-hD-MTw"; */
+"HPP-hD-MTw.text" = "0h0m";
+
+/* Class = "UILabel"; text = "92"; ObjectID = "Iei-Xq-eIa"; */
+"Iei-Xq-eIa.text" = "92";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "J0V-rz-6GU"; */
+"J0V-rz-6GU.text" = "00:00";
+
+/* Class = "UILabel"; text = "4 min"; ObjectID = "MC3-dH-J3Y"; */
+"MC3-dH-J3Y.text" = "4 min";
+
+/* Class = "UILabel"; text = "20:57~21:02"; ObjectID = "O4y-n9-QfI"; */
+"O4y-n9-QfI.text" = "20:57~21:02";
+
+/* Class = "UIBarButtonItem"; title = "Details"; ObjectID = "ONz-XX-lsr"; */
+"ONz-XX-lsr.title" = "Details";
+
+/* Class = "UILabel"; text = "2 lap"; ObjectID = "QJO-u0-IW7"; */
+"QJO-u0-IW7.text" = "2 lap";
+
+/* Class = "UINavigationItem"; title = "Sleep"; ObjectID = "S9M-d4-hN7"; */
+"S9M-d4-hN7.title" = "Sleep";
+
+/* Class = "UILabel"; text = "1 section"; ObjectID = "TEh-ec-165"; */
+"TEh-ec-165.text" = "1 section";
+
+/* Class = "UILabel"; text = "0 km"; ObjectID = "UXf-z7-rMv"; */
+"UXf-z7-rMv.text" = "0 km";
+
+/* Class = "UILabel"; text = "Distance (m)"; ObjectID = "VmJ-S0-6eB"; */
+"VmJ-S0-6eB.text" = "Distance (m)";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "Y60-iN-OEy"; */
+"Y60-iN-OEy.text" = "時間";
+
+/* Class = "UILabel"; text = "63 swolf"; ObjectID = "ch6-CA-eL6"; */
+"ch6-CA-eL6.text" = "63 swolf";
+
+/* Class = "UILabel"; text = "23:59"; ObjectID = "dg2-gj-2UL"; */
+"dg2-gj-2UL.text" = "23:59";
+
+/* Class = "UILabel"; text = "33 yd"; ObjectID = "fDW-se-EO0"; */
+"fDW-se-EO0.text" = "33 yd";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "fGf-fq-g0V"; */
+"fGf-fq-g0V.text" = "0";
+
+/* Class = "UILabel"; text = "Calorie"; ObjectID = "g2s-cc-GqU"; */
+"g2s-cc-GqU.text" = "卡路里";
+
+/* Class = "UINavigationItem"; title = "Swimming"; ObjectID = "gcX-0U-ywU"; */
+"gcX-0U-ywU.title" = "游泳";
+
+/* Class = "UILabel"; text = "Swolf"; ObjectID = "k7M-I7-VQ8"; */
+"k7M-I7-VQ8.text" = "Swolf";
+
+/* Class = "UILabel"; text = "Calorie"; ObjectID = "kcZ-Ys-tXR"; */
+"kcZ-Ys-tXR.text" = "卡路里";
+
+/* Class = "UILabel"; text = "01:34"; ObjectID = "tCR-XN-cZZ"; */
+"tCR-XN-cZZ.text" = "01:34";
+
+/* Class = "UILabel"; text = "1 cal"; ObjectID = "wVj-Vg-H4E"; */
+"wVj-Vg-H4E.text" = "1 cal";
+
+/* Class = "UILabel"; text = "lap"; ObjectID = "zgY-BP-5uo"; */
+"zgY-BP-5uo.text" = "趟";

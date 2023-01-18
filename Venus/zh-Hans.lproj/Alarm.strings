@@ -1,0 +1,27 @@
+
+/* Class = "UIBarButtonItem"; title = "Details"; ObjectID = "2gp-nn-BOy"; */
+"2gp-nn-BOy.title" = "Details";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "8Dr-wo-xFe"; */
+"8Dr-wo-xFe.text" = "Name";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "8zw-J2-GGk"; */
+"8zw-J2-GGk.text" = "Time";
+
+/* Class = "UILabel"; text = "contact"; ObjectID = "Bph-ET-Nf8"; */
+"Bph-ET-Nf8.text" = "contact";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "Fo3-i1-mW8"; */
+"Fo3-i1-mW8.title" = "储存";
+
+/* Class = "UINavigationItem"; title = "My Alarms"; ObjectID = "L75-mh-bmF"; */
+"L75-mh-bmF.title" = "我的闹钟";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "gJs-VZ-lfK"; */
+"gJs-VZ-lfK.text" = "Title";
+
+/* Class = "UILabel"; text = "Contact: "; ObjectID = "htm-Zl-HDn"; */
+"htm-Zl-HDn.text" = "Contact: ";
+
+/* Class = "UINavigationItem"; title = "Select Time"; ObjectID = "prI-QD-ceX"; */
+"prI-QD-ceX.title" = "设定时间";
